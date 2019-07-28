@@ -15,7 +15,7 @@ class App < Sinatra::Base
     #params[:phrase].num.times do
   end
 
-  get /say/:word1/:word2/:word3/:word4/:word5 do
+  get '/say/:word1/:word2/:word3/:word4/:word5' do
      
   end
 
