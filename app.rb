@@ -19,7 +19,7 @@ class App < Sinatra::Base
     @word_1 = params[:word1]
     @word_2 = params[:word2]
 
-    "#{word_1}/#{word_2}"
+    @phrase="#{word_1}/#{word_2}"
 
     #{}"#{word_1} and #{word_2}"
 
