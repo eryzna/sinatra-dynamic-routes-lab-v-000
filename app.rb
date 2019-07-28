@@ -31,7 +31,7 @@ class App < Sinatra::Base
       (number1 * number2).to_s
     elsif params[:operation] == 'divide'
       (number1 / number2).to_s
-    else 
+    else
       puts 'Unable to perform this operation'
     end
     #elsif params[:operation] == 'multiply'
